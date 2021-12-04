@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background: url("./assets/flavio-gasperini-GjKPTkhni6Y-unsplash.jpg") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: calc(100vw + 20px);
+    height: calc(100vh + 20px);
+    filter: blur(0px);
+}
+
+.loading{
+    margin: 250px 0;
+    font-size: 50px;
+    color: rgb(8, 36, 46);
+}
